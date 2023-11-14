@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 16.Draw pyramid
+
+        let row = 5;
+        for(let index=1;index<=row;index++)
+        {
+            let pattern =' '.repeat(row-index);
+            pattern +='*'.repeat(2*index-1);
+            console.log(pattern);
+        }
+
+    </script>
+</body>
+</html>

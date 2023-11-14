@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 23.WAP to count the number of digit in given number
+
+        function countDigit(number)
+        {
+            let count=0;
+            while(number>0)
+            {
+                number=Math.floor(number/10);
+                count++;
+            }
+            return count;
+        }
+        console.log("The number of digit in given number is : ",countDigit(35565));
+        
+    </script>
+</body>
+</html>
